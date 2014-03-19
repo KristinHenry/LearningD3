@@ -2,7 +2,7 @@ LearningD3
 ==========
 
 
-Important concepts: Data Binding, Method Chaining, Scale...
+Important concepts: Data Binding, Method Chaining, Scale...enter/exit?
 
 
 Data Binding
