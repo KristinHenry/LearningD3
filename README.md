@@ -30,11 +30,14 @@ var scale = d3.scale.linear()
                     .domain([100, 500])
                     .range([20, 80]);
                     
-                    
+  
+  
+Then, for each data value you want to draw, you use scale(datavalue).
+
                     
 scale(100);  // returns 20
 
-Then, for each data value you want to draw, you use scale(datavalue).
+
 
 
 
