@@ -26,16 +26,16 @@ First, you set up your scale with the domain (min, max values in your data set) 
 
 So, if you had a data set of [100, 116, 302, 489] and you wanted to map that onto a chart 20x80 pixels in size, you could create this scale.
 
-var scale = d3.scale.linear()
+`var scale = d3.scale.linear()
                     .domain([100, 500])
-                    .range([20, 80]);
+                    .range([20, 80]);`
                     
   
   
 Then, for each data value you want to draw, you use scale(datavalue).
 
                     
-scale(100);  // returns 20
+`scale(100);  // returns 20`
 
 
 
