@@ -24,7 +24,7 @@ This is a very handy feature of d3.js. You can use it to convert data values int
 
 First, you set up your scale with the **domain** (min, max values in your data set) and a **range** (min,max in your chart). 
 
-So, if you had a data set of [100, 116, 302, 489] and you wanted to map that onto a chart 120x100 pixels in size. Let's say you want to create white space around your drawing, and to start at 20 and end at 80.  You could create this scale.
+So, if you had a data set of [100, 116, 302, 489] and you wanted to map that onto a chart 100x70 pixels in size. Let's say you want to create white space around your drawing, and to start at 20 and end at 80.  You could create this scale.
 
 `var scale = d3.scale.linear()
                     .domain([100, 500])
